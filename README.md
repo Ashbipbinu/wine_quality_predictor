@@ -40,29 +40,31 @@ The target variable is quality, representing the sensory quality score of the wi
 
 - Data Preprocessing:
 
-    Label binarization
+    1. Label binarization
 
-    Splitting data into training and testing sets
+    2. Checked and cleaned missing values (if any)
+
+    3. Splitting data into training and testing sets
 
 - Model Development:
 
-    Random Forest Classifier: A bagging-based ensemble model trained with a range of hyperparameters using RandomizedSearchCV.
+    1. Random Forest Classifier: A bagging-based ensemble model trained with a range of hyperparameters using RandomizedSearchCV.
 
-    AdaBoost Classifier: A boosting-based model using shallow decision trees as base estimators, also tuned using RandomizedSearchCV.
+    2. AdaBoost Classifier: A boosting-based model using shallow decision trees as base estimators, also tuned using RandomizedSearchCV.
 
 - Hyperparameter Tuning:
 
-    Used RandomizedSearchCV with 5-fold cross-validation to find optimal parameters for both models.
+    1. Used RandomizedSearchCV with 5-fold cross-validation to find optimal parameters for both models.
 
-    Explored combinations of estimators, depth, learning rate, max features, and bootstrap strategies.
+    2. Explored combinations of estimators, depth, learning rate, max features, and bootstrap strategies.
 
 - Evaluation Metrics:
 
-    Accuracy Score
+    1. Accuracy Score
 
-    Classification Report (Precision, Recall, F1-score)
+    2. Classification Report (Precision, Recall, F1-score)
 
-    Comparison between tuned Random Forest and AdaBoost predictions on the test set.
+    3. Comparison between tuned Random Forest and AdaBoost predictions on the test set.
 
 ## Conclusion:
 
