@@ -2,10 +2,14 @@
 
 This project aims to build and evaluate machine learning models to predict the quality of wine based on physicochemical features.
 
-Objective
+## Objective
+
+
 The goal is to classify wine samples into quality categories using various supervised learning algorithms, and identify the most accurate and generalizable model through hyperparameter tuning and evaluation metrics.
 
-Dataset
+##Dataset
+
+
 The dataset includes the following physicochemical attributes for each wine sample:
 
 Fixed Acidity
@@ -32,7 +36,7 @@ Alcohol
 
 The target variable is quality, representing the sensory quality score of the wine.
 
-Workflow
+## Workflow
 Data Preprocessing:
 
 Handling missing values (if any)
