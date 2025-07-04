@@ -40,9 +40,7 @@ The target variable is quality, representing the sensory quality score of the wi
 
 - Data Preprocessing:
 
-    Handling missing values (if any)
-
-    Scaling features using StandardScaler
+    Label binarization
 
     Splitting data into training and testing sets
 
