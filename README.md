@@ -12,27 +12,27 @@ The goal is to classify wine samples into quality categories using various super
 
 The dataset includes the following physicochemical attributes for each wine sample:
 
-Fixed Acidity
+- Fixed Acidity
 
-Volatile Acidity
+- Volatile Acidity
 
-Citric Acid
+- Citric Acid
 
-Residual Sugar
+- Residual Sugar
 
-Chlorides
+- Chlorides
 
-Free Sulfur Dioxide
+- Free Sulfur Dioxide
 
-Total Sulfur Dioxide
+- Total Sulfur Dioxide
 
-Density
+- Density
 
-pH
+- pH
 
-Sulphates
+- Sulphates
 
-Alcohol
+- Alcohol
 
 The target variable is quality, representing the sensory quality score of the wine.
 
