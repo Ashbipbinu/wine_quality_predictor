@@ -42,7 +42,7 @@ The target variable is quality, representing the sensory quality score of the wi
 
     1. Label binarization
 
-    2. Checked and cleaned missing values (if any)
+    2. Checked and cleaned missing values using SMOTE
 
     3. Splitting data into training and testing sets
 
@@ -68,6 +68,6 @@ The target variable is quality, representing the sensory quality score of the wi
 
 ## Conclusion:
 
-Identified the best-performing model for predicting wine quality.
+- Identified the best-performing model for predicting wine quality.
 
-Discussed model reliability based on cross-validated performance metrics.
+- Discussed model reliability based on cross-validated performance metrics.
