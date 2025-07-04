@@ -7,7 +7,7 @@ This project aims to build and evaluate machine learning models to predict the q
 
 The goal is to classify wine samples into quality categories using various supervised learning algorithms, and identify the most accurate and generalizable model through hyperparameter tuning and evaluation metrics.
 
-##Dataset
+## Dataset
 
 
 The dataset includes the following physicochemical attributes for each wine sample:
